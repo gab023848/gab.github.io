@@ -3,7 +3,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    overflow: hidden; /* Prevent scrollbars */
+    overflow: auto; /* Enable scrolling */
+    height: 100vh; /* Make sure body takes full viewport height */
+    margin: 0; /* Remove default body margin */
 }
 
 header {
